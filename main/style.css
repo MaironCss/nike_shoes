@@ -346,4 +346,166 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
+.collections__tagline {
+  font-size: 2.813em;
+  font-weight: 400;
+  margin-bottom: 45px; }
+
+.collections__text {
+  font-size: 0.938em;
+  line-height: 2;
+  font-weight: 300;
+  max-width: 550px;
+  color: #A6A5A5; }
+
+.collection__btn {
+  height: 50px;
+  width: 145px;
+  border: none;
+  background-color: #82F4D3;
+  font-size: 0.938em;
+  cursor: pointer;
+  position: relative;
+  margin-top: 60px; }
+  .collection__btn:before {
+    content: "";
+    height: 50px;
+    width: 145px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border: 1px solid #82F4D3; }
+
+.collections__img {
+  padding: 5px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px 2px #e3e3e3;
+  box-shadow: 0px 0px 10px 2px #e3e3e3;
+  position: relative; }
+  .collections__img:after {
+    content: "";
+    width: 295px;
+    height: 388px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    z-index: -1;
+    background-image: -webkit-linear-gradient(24deg, #65e0bc 0%, #c9f9eb 100%);
+    background-image: -o-linear-gradient(24deg, #65e0bc 0%, #c9f9eb 100%);
+    background-image: -webkit-linear-gradient(66deg, #65e0bc 0%, #c9f9eb 100%);
+    background-image: -o-linear-gradient(66deg, #65e0bc 0%, #c9f9eb 100%);
+    background-image: linear-gradient(24deg, #65e0bc 0%, #c9f9eb 100%);
+    opacity: 0.722; }
+
+.thought {
+  margin-top: 200px;
+  background-color: #f8f8f8;
+  padding: 100px 0; }
+
+.trought__info--tagline {
+  margin: 0;
+  font-size: 2.813em;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400; }
+
+.trought__info--text {
+  max-width: 835px;
+  margin: 35px auto;
+  text-align: center;
+  line-height: 1.66666;
+  color: #A6A5A5;
+  font-weight: 300; }
+
+.trought__info--autor {
+  margin: 0 auto;
+  max-width: 135px; }
+  .trought__info--autor a {
+    text-decoration: none;
+    color: #A6A5A5;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-align: center; }
+    .trought__info--autor a span {
+      color: #5CD0AE;
+      text-align: center;
+      padding-left: 13px; }
+
+.latest__blog {
+  padding-top: 100px; }
+
+.latest__blog--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 60px; }
+
+.latest__blog--tagline {
+  font-size: 2.813em;
+  text-align: center;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400; }
+
+.latest__blog--img {
+  padding: 5px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px 2px #e3e3e3;
+  box-shadow: 0px 0px 10px 2px #e3e3e3;
+  position: relative; }
+  .latest__blog--img:before {
+    content: "";
+    position: absolute;
+    top: -13%;
+    left: -15%;
+    width: 287px;
+    height: 373px;
+    border: 7px solid #f9f9f9;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    z-index: -1; }
+  .latest__blog--img:after {
+    content: url(../img/nikeblog.png);
+    position: absolute;
+    top: 57%;
+    left: 75%;
+    z-index: -1; }
+
+.latest__blog--content {
+  max-width: 577px; }
+
+.blog__tagline {
+  font-size: 1.250em;
+  font-weight: 400;
+  margin: 11px 0; }
+
+.blog__text {
+  font-size: 0.938em;
+  line-height: 1.6666;
+  color: #A6A5A5;
+  font-weight: 300;
+  margin: 0; }
+
+.blog__btn {
+  height: 50px;
+  width: 145px;
+  border: none;
+  background-color: #82F4D3;
+  font-size: 0.938em;
+  cursor: pointer;
+  position: relative;
+  margin: 75px 0 0 433px; }
+  .blog__btn:before {
+    content: "";
+    height: 50px;
+    width: 145px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border: 1px solid #82F4D3; }
+
 /*# sourceMappingURL=style.css.map */
